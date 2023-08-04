@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+.main {
+   position: absolute;
+   margin-top: 10%;
+   margin-left: 30%;
+}
+
+.result {
+    width: 300px;
+    height: 400px;
+    display: flexbox;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 10%;
+    /* justify-content: center; */
+    color: white;
+    position: relative;
+    right: -5rem;
+}
+
+.score {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    font-size: 2rem;
+}
+
+.list {
+    display: inline-flex;
+    background-color: antiquewhite;
+}
+
+.reac {
+    color: hsl(0, 100%, 67%);
+}
